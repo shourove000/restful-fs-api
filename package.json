@@ -1,0 +1,12 @@
+{
+  "name": "dd",
+  "version": "1.0.0",
+  "description": "Simple Node.js HTTP server",
+  "main": "index.js",
+  "scripts": {
+    "production": "NODE_ENV=production nodemon index",
+    "start": "NODE_ENV=staging nodemon index"
+  },
+  "author": "",
+  "license": "MIT"
+}
