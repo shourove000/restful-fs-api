@@ -2,12 +2,14 @@ const environments = {};
 
 environments.staging = {
     port: 3000,
-    envName: 'staging'
+    envName: 'staging',
+    secretKey: 'thisIsASecretKey'
 };
 
 environments.production = {
     port: 5000,
-    envName: 'production'
+    envName: 'production',
+    secretKey: 'thisIsASecretKey'
 };
 
 //determine which environment was passed as a command-line argument
